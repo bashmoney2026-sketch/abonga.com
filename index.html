@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover beautiful fashion at BellaStyle Boutique. Browse our collection and enquire on WhatsApp.">
+  <title>BellaStyle Boutique | Fashion & Style</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    NEW SEASON, NEW STYLE ✨
+  </div>
+<fieldset></fieldset>
+  <header class="header">
+    <a href="#home" class="logo">Bella<span>Style.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#shop" class="header-button">Explore Collection ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">THE NEW SEASON COLLECTION</p>
+        <h1>Style that feels <em>like you.</em></h1>
+        <p class="hero-description">
+          Discover beautiful pieces that express your personality.
+          Find your next favourite look at BellaStyle Boutique.
+        </p>
+
+        <a href="#shop" class="button">Explore Our Collection →</a>
+
+        <p class="hero-note">Fashion · Confidence · Individuality</p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80"
+          alt="Contemporary fashion inspiration"
+        >
+        <div class="image-label">
+          <span>THE STYLE EDIT</span>
+          <strong>Made for your moment.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading">
+        <p class="eyebrow">CURATED FOR YOU</p>
+        <h2>Discover the <em>collection.</em></h2>
+        <p>Find your style. Choose your favourite. Message us to enquire.</p>
+      </div>
+
+      <div class="shop-controls">
+        <input
+          type="search"
+          id="productSearch"
+          placeholder="Search products..."
+          aria-label="Search products"
+        >
+
+        <select id="categoryFilter" aria-label="Filter by category">
+          <option value="All">All categories</option>
+          <option value="Clothing">Clothing</option>
+          <option value="Bags">Bags</option>
+          <option value="Shoes">Shoes</option>
+          <option value="Accessories">Accessories</option>
+        </select>
+      </div>
+
+      <p id="resultCount" class="result-count"></p>
+
+      <div class="product-grid" id="productGrid"></div>
+
+      <p class="demo-notice">
+        Portfolio demo: product names, prices and availability are examples.
+      </p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=80"
+          alt="Fashion shopping inspiration"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>Fashion is personal. <em>Make it yours.</em></h2>
+
+        <p>
+          BellaStyle is a boutique website concept built for people
+          who love expressing themselves through fashion.
+          Discover everyday essentials and standout pieces
+          in one simple online collection.
+        </p>
+
+        <a href="#shop" class="text-link">Find your favourite piece →</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S TALK STYLE</p>
+      <h2>Need help choosing?</h2>
+      <p>
+        Ask us about products, sizes, availability and delivery.
+        Send us a message and let's talk.
+      </p>
+
+      <a
+        href="#"
+        id="contactWhatsApp"
+        class="button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Chat with us on WhatsApp ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">Bella<span>Style.</span></a>
+    <p>Website concept created by ABONGA · Web Developer</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div class="demo-badge">BOUTIQUE WEBSITE DEMO</div>
+
+</body>
+</html>
